@@ -1,8 +1,12 @@
+import "./Components.css";
+
 function Home() {
   return (
-    <div>
-      <h1>This is the home page</h1>
-    </div>
+    <section class="hero-banner">
+      <div>
+        <h2>Gizem's Portfolio</h2>
+      </div>
+    </section>
   );
 }
 
