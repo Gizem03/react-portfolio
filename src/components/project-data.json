@@ -1,0 +1,32 @@
+[
+  {
+    "href": "https://gizem03.github.io/shop-grid-landing-page/",
+    "id": "furniture",
+    "name": "Furniture Shop"
+  },
+  {
+    "href": "https://gizem03.github.io/Reimplementation-of-Jakes-Eatery-Website/",
+    "id": "eatery",
+    "name": "Jake's Eatery"
+  },
+  {
+    "href": "https://gizem03.github.io/horiseon-home-page-refactor/",
+    "id": "horiseon",
+    "name": "Horiseon Landing Page"
+  },
+  {
+    "href": "https://gizem03.github.io/horiseon-home-page-refactor/",
+    "id": "eatery",
+    "name": "Password Generator"
+  },
+  {
+    "href": "https://gizem03.github.io/horiseon-home-page-refactor/",
+    "id": "eatery",
+    "name": "Team Profile Creator"
+  },
+  {
+    "href": "https://gizem03.github.io/horiseon-home-page-refactor/",
+    "id": "horiseon",
+    "name": "Daily Planner"
+  }
+]

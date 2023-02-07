@@ -1,36 +1,32 @@
 import "./Components.css";
 
+import projects from "./project-data.json";
+
+function Project(props) {
+  return (
+    <a href={props.href} target="_blank" className="project" id={props.id}>
+      <div className="label">
+        <div>{props.name}</div>
+      </div>
+    </a>
+  );
+}
+
 function Projects() {
   return (
-    <section class="page-section" id="work">
+    <section className="page-section" id="work">
       <h2>Work</h2>
-      <div class="page-section-content" id="work-grid">
-        <a
-          href="https://gizem03.github.io/shop-grid-landing-page/"
-          target="_blank"
-          class="project"
-          id="furniture"
-        >
-          <div class="label">
-            <div>Furniture Shop</div>
-          </div>
-        </a>
-        <a
-          href="https://gizem03.github.io/Reimplementation-of-Jakes-Eatery-Website/"
-          target="_blank"
-          class="project"
-          id="eatery"
-        >
-          <div class="label">Jake's Eatery</div>
-        </a>
-        <a
-          href="https://gizem03.github.io/horiseon-home-page-refactor/"
-          target="_blank"
-          class="project"
-          id="horiseon"
-        >
-          <div class="label">Horiseon Landing Page</div>
-        </a>
+      <div className="page-section-content" id="work-grid">
+        {projects.map((project) => {
+          return (
+            <Project
+              key={project.name+ project.id}
+              href={project.href}
+              id={project.id}
+              name={project.name}
+            />
+          );
+        })}
       </div>
     </section>
   );
