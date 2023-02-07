@@ -9,7 +9,7 @@ function App() {
     <div>
       <header>
         <nav>
-          <h1>Gizem's Portfolio</h1>
+          <h1>Gizem Unlu / Web Developer</h1>
           <NavLink to="/"> Home</NavLink>
           <NavLink to="Projects"> Projects</NavLink>
           <NavLink to="Contact"> Contact</NavLink>
